@@ -1,6 +1,6 @@
 package com.company;
 
-public class Main {
+public class Operators {
 
     public static void main(String[] args) {
         // Left Shift Operator
@@ -35,5 +35,14 @@ public class Main {
         //Ternary Operators Disadvantage -- It will check the datatype of both values, whichever is maximum will occupy that type
         obj2=true?new Integer(10):new Double(15.0); //true if:else
         System.out.println("Check diff b/w Ternary and IfElse: "+obj2);//In this case it occupied Double type since it is larger than Int
+        //Datatypes Compatibility
+        double i=2; //i=2.0 then also same output
+        int i3=2;
+        int i1=4;//either num or, den should be of double value to get the exact value.
+        double i2=i/i1;
+        double i4=i3/i1;
+        System.out.println(i2); //double - 0.5
+        System.out.println(i4); //int - 0
+
     }
 }
