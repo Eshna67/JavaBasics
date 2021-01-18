@@ -24,5 +24,37 @@ public class Inputs {
         System.out.println(a);
         System.out.println(b);
 
+// To find teh smallest number
+        int n1, n2, n3;
+        n1 = input.nextInt();
+        n2 = input.nextInt();
+        n3 = input.nextInt();
+//You can take byc omparing two numbers also, I have compared using three at a time below
+//        if (n1<n2){
+//            if (n1<n3){
+//                System.out.println("The smallest number entered is "+n1);
+//            }
+//            else {
+//                System.out.println("The smallest number entered is "+n3);
+//            }
+//        }
+//        else {
+//            if(n2<n3){
+//                System.out.println("The smallest number entered is "+n2);
+//            }
+//            else {
+//                System.out.println("The smallest number entered is "+n3);
+//            }
+//        }
+        if (n1<n2 && n1<n3){
+            System.out.println("The smallest number entered is "+n1);
+        }
+        if (n2<n1 && n2<n3){
+            System.out.println("The smallest number entered is "+n2);
+        }
+        if (n3<n1 && n3<n2){
+            System.out.println("The smallest number entered is "+n3);
+        }
+
     }
 }

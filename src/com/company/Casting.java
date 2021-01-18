@@ -29,6 +29,11 @@ public class Casting {
 //        double y = 1.5;
 //        double z = (int)x/(int)y;
 //        System.out.println(z); }
+
+            int A=6;
+            double B=5.5;
+            double sum=A+B; //or,  int sum = a + (int)b;
+            System.out.println((int)sum); //System.out.println(sum);
         }
     }
 }

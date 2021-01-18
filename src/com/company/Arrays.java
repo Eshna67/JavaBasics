@@ -25,9 +25,8 @@ public class Arrays {
 //        marks[2] = input.nextInt();
 //        marks[3] = input.nextInt();
 //        marks[4] = input.nextInt(); // Replacing with loops
-        for(int i=0;i<5;i++)
-        {
-           marks[i]= input.nextInt();
+        for (int i = 0; i < 5; i++) {
+            marks[i] = input.nextInt();
         }
         int rollNumber;
         rollNumber = input.nextInt();
@@ -49,6 +48,16 @@ public class Arrays {
 //        {
 //            System.out.println("Dekha Mera Kamal");
 //        }
-    }
-    }
+        int intArray[] = {1, 2, 3};
 
+        int cloneArray[] = intArray.clone();
+
+        // will print false as deep copy is created
+        // for one-dimensional array
+        System.out.println(intArray == cloneArray);
+
+        for (int i = 0; i < cloneArray.length; i++) {
+            System.out.print(cloneArray[i] + " ");
+        }
+    }
+}
