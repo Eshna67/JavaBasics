@@ -34,5 +34,14 @@ int num1 = input.nextInt();
 
     System.out.print(hcf);
     input.close();
+
+//        Print first n integers starting from 0 in the reverse order using the do-while loop.
+//        int n;
+//        n=input.nextInt();
+//        int counter=n;
+//        do{
+//            System.out.println(counter);
+//            counter=counter-1;
+//        }while (counter>=0);
 }
 }

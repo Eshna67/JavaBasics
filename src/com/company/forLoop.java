@@ -15,5 +15,14 @@ public class forLoop {
         for (int i=n;i>=0;i--){
             System.out.println(i);
         }
+//        Average - The first line will contain n which is the number of integers to be taken average of.
+        int no=input.nextInt();
+        int sum=0,numbers;
+        for (int i=0;i<no;i++){
+            numbers=input.nextInt();
+            sum=sum+numbers;
+        }
+        int average=sum/no;
+        System.out.print(average);
     }
 }
