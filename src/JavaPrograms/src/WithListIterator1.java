@@ -1,0 +1,2 @@
+public class WithListIterator1 {
+}
