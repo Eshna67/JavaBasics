@@ -1,4 +1,4 @@
-package com.company;
+package company;
 import java.io.*;
 public class InpOutput {
     public static void main(String[] args) {

@@ -20,7 +20,7 @@ public class Maths extends CheckNow {
 
     public static void main(String[] args) {
         Maths m= new Maths();
-        m.numbers();
+        m.numbers(); //numbers method not present in Maths class
         m.outp();
     }
 }

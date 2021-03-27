@@ -1,4 +1,4 @@
-package com.company;
+package company;
 
 public class ParametersVsArguments {
     public static void main(String[] args) {

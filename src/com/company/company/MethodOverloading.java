@@ -1,4 +1,4 @@
-package com.company;
+package company;
 
 public class MethodOverloading {
     //When the method name is same with diff arguments/input param withing the SAME CLASS

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/company.iml" filepath="$PROJECT_DIR$/company.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../DSAlgo/DSAlgo.iml" filepath="$PROJECT_DIR$/../../DSAlgo/DSAlgo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../JavaProjects/JavaOOPsProjects.iml" filepath="$PROJECT_DIR$/../../JavaProjects/JavaOOPsProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../JavaPrograms/JavaPrograms.iml" filepath="$PROJECT_DIR$/../../JavaPrograms/JavaPrograms.iml" />
     </modules>
   </component>
 </project>

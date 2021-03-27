@@ -1,4 +1,4 @@
-package com.company;
+package company;
 
 public class ProceduralVsOops<rad> {
     //Procedural Programming

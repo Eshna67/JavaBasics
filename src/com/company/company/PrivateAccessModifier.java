@@ -1,4 +1,4 @@
-package com.company;
+package company;
 
 //import com.sun.javafx.scene.paint.GradientUtils;
 

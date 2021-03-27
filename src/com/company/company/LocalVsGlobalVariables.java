@@ -1,4 +1,4 @@
-package com.company;
+package company;
 
 public class LocalVsGlobalVariables {
     String name="Tom"; //Global variable inside a Class variable

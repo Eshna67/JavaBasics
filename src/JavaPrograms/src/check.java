@@ -1,15 +1,19 @@
 class Main {
     public static void main(String[] args) {
-//        check obj=new check();
-        check.radius=2.0;
+        check obj=new check();
+        obj.getRadius();
         //obj.findArea(2);
       //  double area = check.findArea(2);
-        System.out.println("Area of circle is ");
+        System.out.println("Area of circle is "+obj.getRadius());
     }
 }
+//Static methods can be called without creating any objects
 public class check {
-    public static double radius; // As soon as we make radius static, able to access in main class via Classname
-    public double findArea(double radius) {
+    private static double radius=3;
+    public double getRadius(){
+        return radius;
+    }// As soon as we make radius static, able to access in main class via Classname
+    public final double findArea(double radius) {
         double area = 3.14 * radius * radius;
         return area;
     }

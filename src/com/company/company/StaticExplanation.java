@@ -1,4 +1,4 @@
-package com.company;
+package company;
 public class StaticExplanation {
 public static void main(String[] a){
 

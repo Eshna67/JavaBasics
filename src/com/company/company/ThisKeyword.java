@@ -1,4 +1,4 @@
-package com.company;
+package company;
 
 public class ThisKeyword {
     public static void main(String[] args) {

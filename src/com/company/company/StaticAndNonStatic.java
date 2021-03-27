@@ -1,4 +1,4 @@
-package com.company;
+package company;
 
 public class StaticAndNonStatic {
     //Global Variables : The scope of GV will be available a/c all teh functions with some conditions.

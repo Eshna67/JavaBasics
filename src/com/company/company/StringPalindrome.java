@@ -1,4 +1,4 @@
-package com.company;
+package company;
 
 public class StringPalindrome {
             public static void checkPalindrome(String s)

@@ -1,4 +1,4 @@
-package com.company;
+package company;
 
 public class Constructor {
     public static void main(String[] a){

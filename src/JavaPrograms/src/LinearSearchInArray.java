@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SearchInArray {
+public class LinearSearchInArray {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
@@ -11,7 +11,7 @@ public class SearchInArray {
         search(arr, k);
     }
 
-    // Method to search for k in an unsorted array
+    // Method to search for k in an unsorted array -- LINEAR SEARCH
     static void search(int[] arr, int k) {
         boolean test = false;
         for (int element : arr) {
